@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+ul li a{
+    padding: 3px;
+}
+a{
+    text-decoration: none;
+}
+header {
+    background-color: aquamarine;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar {
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    height: 30px;
+    padding: 5px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 30px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.login{
+    width: 20%;
+    height: 30px;
+    padding: 5px;
+    text-align: end;
+}
+
+.border-black{
+    border: 1px dashed black
+}
+.border-white{
+    border: 1px dashed white
+}
+.border-white-solid{
+    border-width: 1px 0px 1px 0px;
+    border-color: white;
+    border-style: solid;
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-magent{
+    background-color: magenta;
+}
+.bg-pink{
+    background-color: pink;
+}
+.bg-gray{
+    background-color: gray;
+}
+.bg-sky{
+    background-color: skyblue;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-peach{
+    background-color: peachpuff;
+}
+.bg-turchese{
+    background-color: turquoise;
+}
+.hg-50{
+    height: 50px;
+}
+
+.hg-300{
+    height: 300px;
+}
+
+.ly5050{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+}
+
+.poster5050{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ly-row-2-column7030{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+}
+.poster70{
+    width: 35%;
+}
+
+.poster30{
+    width: 25%;
+}
+
+.ly-reverse-row-2-column{
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+}
+
+.ly-big-poster{
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+}
+
+.poster-big{
+    height: 500px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.ly-5-column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.column-1-5{
+    width: 20%;
+}
+.column-2-5{
+    width: 10%;
+}
+.column-3-5{
+    width: 10%;
+}
+.column-4-5{
+    width: 10%;
+}
+.column-5-5{
+    width: 10%;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 1rem 1rem 0rem 1rem;
+}
+.foot-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.logo-foot{
+    padding: 0.3rem;
+}
+
+.btn{
+    padding: 0.3rem;
+}
