@@ -4,39 +4,49 @@
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+img{
+    width: 100%;
+}
 ul li a{
     padding: 3px;
+    color: white;
 }
 a{
     text-decoration: none;
 }
 header {
-    background-color: aquamarine;
-    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .bar {
+    width: 80%;
+}
+.d-flex{
     display: flex;
-    width: 70%;
-    align-items: center;
 }
 
+.d-flex-centered{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+.flex-grow{
+    flex-grow: 1;
+}
+.flex-space-between{
+    justify-content: space-between;
+}
 .logo {
-    width: 20%;
-    height: 30px;
-    padding: 5px;
+
 }
 
 
 .menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    height: 30px;
+    width: max-content;
 }
 
 .menu ul {
@@ -47,9 +57,6 @@ header {
 }
 
 .login{
-    width: 20%;
-    height: 30px;
-    padding: 5px;
     text-align: end;
 }
 
@@ -64,70 +71,98 @@ header {
     border-color: white;
     border-style: solid;
 }
+
+.txt-white{
+    color: white;
+}
+.txt-black{
+    color: black;
+}
+.bg-white{
+    background-color: white;
+}
+
+.tag{
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+}
 .bg-orange{
-    background-color: orange;
-}
+    background-color: orange;}
 .bg-blue{
-    background-color: blue;
-}
+    background-color: #3160e0;}
 .bg-magent{
-    background-color: magenta;
-}
+    background-color: magenta;}
 .bg-pink{
-    background-color: pink;
-}
+    background-color: pink;}
 .bg-gray{
-    background-color: gray;
-}
+    background-color: gray;}
 .bg-sky{
-    background-color: skyblue;
-}
+    background-color: skyblue;}
 .bg-green{
-    background-color: green;
-}
+    background-color: green;}
 .bg-black{
-    background-color: black;
-}
+    background-color: black;}
 .bg-peach{
-    background-color: peachpuff;
-}
+    background-color: peachpuff;}
 .bg-turchese{
-    background-color: turquoise;
-}
+    background-color: turquoise;}
+
 .hg-50{
-    height: 50px;
-}
+    height: 50px;}
 
 .hg-300{
-    height: 300px;
+    height: 300px;}
+
+.pad-top-1{
+    padding-top: 1rem;
+}
+.pad-top-2{
+    padding-top: 2rem;
+}
+.pad-top-3{
+    padding-top: 3rem;
+}
+.pad-bottom-1{
+    padding-bottom: 1rem;
+}
+.pad-bottom-2{
+    padding-bottom: 2rem;
+}
+.pad-bottom-3{
+    padding-bottom: 3rem;
 }
 
+.pad-1{
+    padding: 1rem;
+}
 .ly5050{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 1.25rem;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
 }
 
 .poster5050{
     width: 50%;
-    margin: 0 auto;
 }
 
+.txt-center{
+    text-align: center;
+}
 .ly-row-2-column7030{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.25rem;
+    width: 70%;
 }
 .poster70{
-    width: 35%;
+    width: 45%;
 }
 
 .poster30{
     width: 25%;
 }
 
+.low-jumbotron{
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
 .ly-reverse-row-2-column{
     flex-direction: row-reverse;
     display: flex;
