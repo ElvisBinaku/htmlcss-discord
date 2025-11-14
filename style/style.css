@@ -147,9 +147,22 @@ header {
     background-size: cover;
 }
 .h3-low-star{
-    size: max-content;
     background-image: url("../img/stars.svg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: max-content;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+.relatvie{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    left: 0;
+    bottom: 10px;
 }
 .poster5050{
     width: 45%;
