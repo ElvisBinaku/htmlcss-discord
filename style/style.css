@@ -2,8 +2,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    
 }
+a:visited {
+    color: none;}
+
 img{
     width: 100%;
 }
@@ -21,9 +24,7 @@ header {
 }
 
 .container {
-    width: 70%;
-    margin: 0 auto;
-    padding: 1.25rem 0;
+    padding: 1rem 15%;
 }
 
 .bar {
@@ -49,7 +50,6 @@ header {
 .logo {
 
 }
-
 
 .menu {
     width: max-content;
@@ -95,19 +95,20 @@ header {
 .bg-orange{
     background-color: orange;}
 .bg-blue{
-    background-color: #3160e0;}
+    background-color: #255ee9;}
+.bg-light-blue{ background-color: #91a2e3;}
 .bg-magent{
     background-color: magenta;}
 .bg-pink{
     background-color: pink;}
 .bg-gray{
-    background-color: gray;}
+    background-color:#f6f6f6;}
 .bg-sky{
     background-color: skyblue;}
 .bg-green{
     background-color: green;}
 .bg-black{
-    background-color: black;}
+    background-color: #23272a;}
 .bg-peach{
     background-color: peachpuff;}
 .bg-turchese{
@@ -125,8 +126,8 @@ header {
 .pad-top-2{
     padding-top: 2rem;
 }
-.pad-top-3{
-    padding-top: 3rem;
+.pad-top-5{
+    padding-top: 5rem;
 }
 .pad-bottom-1{
     padding-bottom: 1rem;
@@ -134,8 +135,8 @@ header {
 .pad-bottom-2{
     padding-bottom: 2rem;
 }
-.pad-bottom-3{
-    padding-bottom: 3rem;
+.pad-bottom-5{
+    padding-bottom: 5rem;
 }
 
 .pad-1{
@@ -145,15 +146,18 @@ header {
     background-image: url("../img/jumbo.png");
     background-size: cover;
 }
-
+.h3-low-star{
+    size: max-content;
+    background-image: url("../img/stars.svg");
+    background-size: cover;
+}
 .poster5050{
-    width: 50%;
+    width: 45%;
 }
 
 .txt-center{
     text-align: center;
 }
-
 
 .poster70{
     width: 70%;
@@ -167,33 +171,11 @@ header {
     flex-shrink: 1;
     flex-wrap: wrap;
 }
-.ly-reverse-row-2-column{
-    flex-direction: row-reverse;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.25rem;
-}
-
-.ly-big-poster{
-    flex-direction: row-reverse;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.25rem;
-}
 
 .poster-big{
-    height: 500px;
     width: 100%;
 }
 
-.ly-5-column{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5rem 1rem 1rem 1rem;
-}
 
 .column-1-5{
     width: 40%;
@@ -233,7 +215,3 @@ footer{
 .btn{
     padding: 0.3rem;
 }
-
-
-.pad-20{
-    padding: 0 15%;}
